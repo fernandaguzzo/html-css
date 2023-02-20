@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'android';
+    src: url(fontes/idroid/IDroid.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+body {
+    background-color: aquamarine;
+    margin: 0;
+    padding: 0;
+}
+
+
+a:hover {
+    background-color:#1A5C38;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+main {
+    background-color: white;
+    width: 73%;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    text-indent: 20px;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 42%);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 30px;
+}
+h1#principal {
+    font-family:'Bebas Neue';
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+
+}
+section#cabeçalho {
+    padding: 1em;
+    background-image: linear-gradient(to top, #1A5C38,#227A49, #288C54, #32B46C, #37C677, #3BD480);
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 10px;
+}
+
+h2#curiosidades{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+
+}
+
+.font-android {
+    font-family: 'android';
+    color: rgb(37, 105, 37);
+    font-size: 24px;
+    text-align: left;
+    background-image: linear-gradient(to right, rgba(121, 219, 121, 0.404), white);
+
+
+}
+
+.decoracao {
+    font-family: 'android';
+    color: rgb(37, 105, 37);
+    font-size: 32px;
+    text-indent: 8px;
+
+}
+
+img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+  
+}
+
+.coloracao {
+    font-family: 'Arial';
+    margin: 20px;
+    line-height: 1.6;
+   
+
+}
+
+.cor {
+    color: rgb(12, 82, 12);
+}
+
+iframe {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+  
+}
+
+.video {
+    background-color: rgb(12, 82, 12);
+    margin: 15px 15px 1px 15px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+aside {
+    background-color:rgb(123, 175, 123);
+    border-radius: 10px;
+    padding-bottom: 1%;
+}
+aside > h3 {
+    background-color: rgb(12, 82, 12);
+    color: white;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+    font-size: 20px;
+}
+aside > p {
+    font-family: 'Arial';
+    margin: 20px;
+    line-height: 1.6;
+}
+
+li {
+    font-family: 'Arial';
+    display: list-item;
+}
+ul {
+    columns: 2;
+}
+
